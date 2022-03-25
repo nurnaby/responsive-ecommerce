@@ -1,0 +1,303 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,300&display=swap');
+    * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        font-family: 'Poppins', sans-serif;
+    }
+    /* common css  */
+    
+    input {
+        padding: 8px 20px;
+        background: linear-gradient(90deg, #8392fd 0%, #63bcfb 100%);
+        color: #fff;
+        outline: none;
+        border: none;
+    }
+    
+    input:hover {
+        box-shadow: 0 0 3px rgba(0, 0, 0.08);
+    }
+    
+    .hedding {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .hedding p {
+        font-size: 15px;
+        color: #777777;
+    }
+    
+    .hedding h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+        color: #222222;
+    }
+    /* nav section start */
+    
+    nav {
+        height: 70px;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    
+    .logo {
+        font-size: 35px;
+        font-weight: bold;
+        color: white;
+        padding: 0 85px;
+        line-height: 80px;
+    }
+    
+    nav ul {
+        float: right;
+        margin-right: 82px;
+    }
+    
+    nav li {
+        color: white;
+        display: inline-block;
+        margin: 0 8px;
+        line-height: 80px;
+    }
+    
+    nav li a {
+        color: #222222;
+        font-weight: normal;
+        font-size: 16px;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        padding: 7PX 10PX;
+    }
+    
+    a.active,
+    a:hover {
+        color: #7e9bff;
+        transition: .5s;
+    }
+    
+    #icon {
+        color: white;
+        font-size: 30px;
+        line-height: 80px;
+        float: right;
+        margin-right: 40px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    /* nav section end  */
+    /* hero section start */
+    
+    .top_section {
+        background-color: #f9f9f9ff;
+        margin-bottom: 105px;
+    }
+    
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .hero {
+        width: 100%;
+        height: 750px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .left {
+        width: 55%;
+    }
+    
+    .left h3 {
+        font-weight: normal;
+        color: #222222;
+        margin-bottom: 20px;
+    }
+    
+    .left h1 {
+        font-size: 60px;
+        margin-bottom: 10px;
+        color: #222222;
+    }
+    
+    .left p {
+        color: #9f9fac;
+        margin-bottom: 10px;
+    }
+    
+    .right {
+        width: 45%;
+    }
+    
+    .right img {
+        width: 100%;
+        height: auto;
+    }
+    /* hero section end */
+    /* about section start */
+    
+    .about_left {
+        width: 50%;
+        height: auto;
+    }
+    
+    .about_left img {
+        width: 90%;
+        height: auto;
+    }
+    
+    .about_right {
+        width: 50%;
+        height: auto;
+        padding-left: 60px;
+    }
+    
+    .about_right h3 {
+        font-weight: 300;
+        color: rgb(65, 63, 63);
+        margin-bottom: 20px;
+    }
+    
+    .about_right h1 {
+        font-size: 40px;
+        font-weight: 400px;
+        color: rgb(29, 28, 28);
+        margin-bottom: 20px;
+    }
+    
+    .about_right p {
+        color: #9f9fac;
+        margin-bottom: 20px;
+    }
+    
+    .about {
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    /* about section end */
+    /* service section start  */
+    
+    .our_services {
+        margin: 0 auto;
+        max-width: 1000px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        gap: 5px;
+        padding: 20px;
+    }
+    
+    .our_service {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        padding: 20px;
+    }
+    
+    .our_service i {
+        font-size: 30px;
+        color: #222222;
+        margin-bottom: 20px;
+    }
+    
+    .our_service h3 {
+        font-size: 20px;
+        color: #222222;
+        margin-bottom: 20px;
+        transition: all;
+    }
+    
+    .our_service h3:hover {
+        color: #73a6fe;
+    }
+    
+    .our_service p {
+        color: #777777;
+        font-size: 15px;
+    }
+    /* service section end  */
+    /* projuct section start  */
+    
+    .projuct_container {
+        background: linear-gradient(90deg, #8392fd 0%, #63bcfb 100%);
+        margin-bottom: 100px;
+    }
+    
+    .our_projuct {
+        color: white;
+        margin: 0 auto;
+        max-width: 1000px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 5px;
+        padding: 20px;
+    }
+    
+    .projuct_item {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        padding: 20px;
+    }
+    
+    .projuct_item h3 {
+        font-size: 30px;
+    }
+    /* projuct section end  */
+    /* featured project start  */
+    /* featured project end  */
+    
+    @media (max-width: 1048px) {
+        lable.logo {
+            font-size: 32px;
+            padding-left: 60px;
+        }
+        nav ul {
+            margin-right: 20px;
+        }
+        nav a {
+            font-size: 17px;
+        }
+    }
+    
+    @media (max-width: 909px) {
+        nav #icon {
+            display: block;
+            color: #000;
+        }
+        nav ul {
+            position: fixed;
+            width: 50%;
+            height: 100vh;
+            background: #2f3640;
+            top: 80px;
+            left: -100%;
+            text-align: center;
+            transition: all .5s;
+        }
+        nav li {
+            display: block;
+            margin: 50px 0;
+            line-height: 30px;
+        }
+        nav a {
+            font-size: 20px;
+        }
+        a.active,
+        a:hover {
+            border: none;
+            color: #3498db;
+        }
+        nav ul.show {
+            left: 0;
+        }
+    }
